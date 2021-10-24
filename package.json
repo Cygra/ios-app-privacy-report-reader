@@ -3,16 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/charts": "^1.2.14",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.13",
+    "axios": "^0.23.0",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sequelize": "^6.7.0",
+    "sqlite3": "^5.0.2",
     "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-server": "nodemon server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
